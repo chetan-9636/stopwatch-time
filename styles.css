@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #E0F7FA;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    width: 100px; /* Increased logo size */
+    margin-bottom: 20px;
+}
+
+.time-display {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px; /* Space between time units */
+}
+
+.time-display div {
+    padding: 0 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-button {
+    background-color: green;
+}
+
+.stop-button {
+    background-color: red;
+}
+
+.reset-button {
+    background-color: yellow;
+    color: black;
+}
